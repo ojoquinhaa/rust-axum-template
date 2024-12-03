@@ -1,6 +1,8 @@
 mod routes;
 mod env;
 mod helpers;
+mod db;
+mod schema;
 
 use tokio::net::TcpListener;
 
